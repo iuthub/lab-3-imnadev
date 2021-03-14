@@ -1,0 +1,62 @@
+body {
+    background: dodgerblue;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 60em;
+    background: white;
+    padding: 12px;
+}
+
+.header {
+    padding: 8px;
+    margin-bottom: 8px;
+    background: #77f4fd;
+    text-align: right;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 60em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.main-panel {
+    flex:70%
+}
+
+.side-panel {
+    flex:30%
+}
+
+.widget {
+    background: #84c9ff;
+    border:  #0b9cff solid 4px;
+    padding: 8px;
+}
+.widget-header header{
+    margin-left: 4px;
+}
+
+.article{
+    background: #e6fdf7;
+    border: #88e7ff solid 3px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.article-header{
+    display: flex;
+    align-items: center;
+}
+.article-detail{
+    text-decoration: dashed underline;
+}
+.article-title{
+    font-size: 24px;
+}
